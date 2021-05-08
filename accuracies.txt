@@ -1,0 +1,19 @@
+feature_slection/classifier                   Decision Tree           Logistic Regression        KNN Classifier           SVM classifier       Naive Bayes              Random Forest Algo        KNN-Neighborhood classification analysis             Gradient Boosting Classifier                 Neural Network MLP Classifier
+
+RFE(recursiveFeatElim)      16 features             77.152                    96.357                   74.172                   95.364            99.62(100)                  98.675                              96.190                                            91.444                                     95.777
+(['spectral_rolloff_min', 'melspectogram_max', 'spectral_centroid_max',
+       'spectral_rolloff_max', 'spectral_centroid_min',
+       'spectral_bandwidth_min', 'spectral_bandwidth_max', 'mfcc_min',
+       'mfcc_max', 'spectral_contrast_max', 'delta_mfcc_max', 'delta_mfcc_min',
+       'mel_to_stft_max', 'spectral_contrast_min', 'poly_features_max'
+       'class']
+
+
+  
+Lasso Regression             15 features            
+['chroma_cqt_min', 'chroma_cens_min', 'melspectogram_max',
+       'mfcc_max', 'rms_min', 'spectral_bandwidth_min',
+       'spectral_flatness_min', 'spectral_rolloff_min',
+       'spectral_rolloff_max', 'poly_features_min', 'poly_features_max',
+       'tonnetz_max', 'zero_crossing_rate_max', 'delta_mfcc_min',
+       'mel_to_stft_max']
